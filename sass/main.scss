@@ -1,0 +1,23 @@
+/*base*/
+@import './base/resets';
+@import './base/base';
+
+/*layout*/
+@import './layout/header';
+
+/*services*/
+@import './components/services';
+
+/*contacts*/
+@import './components/contact';
+
+/*forms*/
+@import './components/forms';
+
+/*animaciones*/
+@import './components/animations';
+
+
+
+/*MediaQueries*/
+@import './abstracts/mediaqueries';

@@ -1,0 +1,36 @@
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  h2.animated-heading {
+    animation: fade-in 1s ease-in-out;
+  }
+
+
+.animations {
+    animation-duration: 1s; // Duración de la animación
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.bounceIn {
+    animation-name: bounceIn;
+}

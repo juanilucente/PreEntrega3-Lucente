@@ -1,0 +1,42 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.compra-form .form-group {
+    margin-bottom: 15px;
+}
+
+.compra-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.compra-form input[type="text"],
+.compra-form input[type="email"],
+.compra-form select,
+.compra-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.compra-form .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.compra-form .btn:hover {
+    background-color: #0056b3;
+}
